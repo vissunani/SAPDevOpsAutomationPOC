@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Testes de BRB]" parallel="classes">
+  <test name="Acessar BRB(failed)" parallel="classes">
+    <classes>
+      <class name="com.timp.test.BRB.testNg.FiltrosAvançados">
+        <methods>
+          <include name="brbEntrar"/>
+          <include name="filtrosAvanzados"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.timp.test.BRB.testNg.FiltrosAvançados -->
+      <class name="com.timp.test.BRB.testNg.BRBAcessar">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="login"/>
+          <include name="brbEntrar"/>
+        </methods>
+      </class> <!-- com.timp.test.BRB.testNg.BRBAcessar -->
+      <class name="com.timp.test.BRB.testNg.NovoRelatorio">
+        <methods>
+          <include name="colunas"/>
+          <include name="brbEntrar"/>
+          <include name="beforeClass"/>
+          <include name="novoRelatorio"/>
+        </methods>
+      </class> <!-- com.timp.test.BRB.testNg.NovoRelatorio -->
+    </classes>
+  </test> <!-- Acessar BRB(failed) -->
+</suite> <!-- Failed suite [Testes de BRB] -->

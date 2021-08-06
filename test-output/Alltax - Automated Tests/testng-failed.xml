@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Alltax - Automated Tests]" parallel="methods">
+  <test name="BRB(failed)" parallel="methods">
+    <classes>
+      <class name="com.timp.test.BRB.testNg.FiltrosAvançados">
+        <methods>
+          <include name="brbEntrar"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="filtrosAvanzados"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.timp.test.BRB.testNg.FiltrosAvançados -->
+      <class name="com.timp.test.BRB.testNg.BRBAcessar">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="brbEntrar"/>
+        </methods>
+      </class> <!-- com.timp.test.BRB.testNg.BRBAcessar -->
+      <class name="com.timp.test.BRB.testNg.NovoRelatorio">
+        <methods>
+          <include name="colunas"/>
+          <include name="brbEntrar"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="novoRelatorio"/>
+        </methods>
+      </class> <!-- com.timp.test.BRB.testNg.NovoRelatorio -->
+      <class name="com.timp.test.BRB.testNg.paginacion">
+        <methods>
+          <include name="brbEntrar"/>
+          <include name="beforeClass"/>
+          <include name="paginacion"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.timp.test.BRB.testNg.paginacion -->
+    </classes>
+  </test> <!-- BRB(failed) -->
+</suite> <!-- Failed suite [Alltax - Automated Tests] -->

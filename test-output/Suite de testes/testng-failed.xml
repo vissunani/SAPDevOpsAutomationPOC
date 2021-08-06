@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Suite de testes]" parallel="classes">
+  <test name="FunctionalTests(failed)" parallel="classes">
+    <classes>
+      <class name="com.timp.test.BRB.testNg.NovoRelatorio">
+        <methods>
+          <include name="colunas"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.timp.test.BRB.testNg.NovoRelatorio -->
+      <class name="com.timp.test.BRB.testNg.BRBAcessar">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.timp.test.BRB.testNg.BRBAcessar -->
+    </classes>
+  </test> <!-- FunctionalTests(failed) -->
+</suite> <!-- Failed suite [Suite de testes] -->
