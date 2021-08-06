@@ -60,7 +60,7 @@ public class DevopsMain {
 		//	Properties prop = new Properties();
 			String propFileName = "parameter.properties";
 			String parent = System.getProperty("user.dir");
-			String filePath = parent+ "\\" +propFileName;
+			String filePath = parent+ "/" +propFileName;
 			System.out.println("filepath "+filePath);
 			 FileInputStream fis = null;
 		      Properties prop = null;
